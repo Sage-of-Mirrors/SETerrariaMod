@@ -1,0 +1,9 @@
+author = SEMods
+version = 0.0.0
+displayName = Magic Storage
+homepage = https://github.com/Sage-of-Mirrors/SETerrariaMod
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true
