@@ -14,7 +14,7 @@ namespace MagicStorage.NPCs
 		{
 			get
 			{
-				return "SETerrariaMod/NPCs/ChestDude";
+				return "MagicStorage/NPCs/ChestDude";
 			}
 		}
 
