@@ -9,7 +9,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace MagicChest.Tiles
+namespace MagicStorage.Tiles
 {
     public class MagicChestFunction : ModTile
     {
