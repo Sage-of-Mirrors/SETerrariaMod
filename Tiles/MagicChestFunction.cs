@@ -183,12 +183,12 @@ namespace MagicChest.Tiles
             player.showItemIcon2 = -1;
             if (chest < 0)
             {
-                player.showItemIconText = Lang.chestType[0];
+                player.showItemIconText = "Magic Chest";
             }
             else
             {
-                player.showItemIconText = Main.chest[chest].name.Length > 0 ? Main.chest[chest].name : "Red Chest";
-                if (player.showItemIconText == "Red Chest")
+                player.showItemIconText = Main.chest[chest].name.Length > 0 ? Main.chest[chest].name : "Magic Chest";
+                if (player.showItemIconText == "Magic Chest")
                 {
                     player.showItemIcon2 = mod.ItemType("MagicChest");         //here put your Chest Item name
                     player.showItemIconText = "";
