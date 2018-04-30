@@ -19,7 +19,7 @@ namespace MagicStorage.Tiles
             Main.tileFrameImportant[Type] = true;
             Main.tileObsidianKill[Type] = true;
 
-            TileObjectData.newTile.CopyFrom(TileObjectData.Style2xX);
+            TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
             TileObjectData.addTile(Type);
             ModTranslation name = CreateMapEntryName();
             name.SetDefault("Decorative Chest");
