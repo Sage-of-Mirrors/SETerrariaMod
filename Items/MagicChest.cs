@@ -27,8 +27,8 @@ namespace MagicStorage.Items
             item.consumable = true;
             item.rare = 5;
             item.value = Item.buyPrice(0, 6, 0, 0);
-            item.createTile = mod.TileType("MagicChest");
-            item.placeStyle = 1;
+            item.createTile = mod.TileType("MagicChestFunction");
+            item.placeStyle = 0;
         }
 
         public override void AddRecipes()
