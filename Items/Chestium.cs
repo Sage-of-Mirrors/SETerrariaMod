@@ -18,8 +18,8 @@ namespace MagicStorage.Items
         {
             item.material = true;
             item.maxStack = 99;
-            item.width = 16;
-            item.height = 16;
+            item.width = 10;
+            item.height = 10;
             item.UseSound = SoundID.Item2;
             item.value = Item.buyPrice(0, 5, 0, 0);
             item.rare = 5;

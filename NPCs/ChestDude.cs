@@ -14,7 +14,7 @@ namespace MagicStorage.NPCs
 		{
 			get
 			{
-				return "SETerrariaMod/NPCs/ChestDude";
+				return "MagicStorage/NPCs/ChestDude";
 			}
 		}
 
@@ -56,7 +56,21 @@ namespace MagicStorage.NPCs
 
         public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
-            return true;
+            for (int k = 0; k < 255; k++)
+            {
+                Player player = Main.player[k];
+                if (player.active)
+                {
+                    for (int j = 0; j < player.inventory.Length; j++)
+                    {
+                        if (player.inventory[j].type == ItemID.Chest)
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
         }
 
         public override string TownNPCName()

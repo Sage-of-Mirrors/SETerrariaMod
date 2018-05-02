@@ -33,13 +33,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Items\Armor\Cheggings.cs" />
+    <Compile Include="Items\Armor\Chelmet.cs" />
+    <Compile Include="Items\Armor\Chestplate.cs" />
     <Compile Include="Items\Chestium.cs" />
     <Compile Include="Items\MagicChest.cs" />
+    <Compile Include="Items\UselessChest.cs" />
     <Compile Include="MagicStorage.cs" />
+    <Compile Include="NPCs\ChestDude.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Tiles\MagicChestFunction.cs" />
+    <Compile Include="Tiles\MagicStorage.cs" />
+    <Compile Include="Tiles\UselessChest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -60,10 +67,23 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="Terraria">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Terraria\Terraria.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\tModLoader.Windows.v0.10.1.3\Terraria.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Items\Armor\Cheggings.png" />
+    <Content Include="Items\Armor\Cheggings_Legs.png" />
+    <Content Include="Items\Armor\Chelmet.png" />
+    <Content Include="Items\Armor\Chelmet_Head.png" />
+    <Content Include="Items\Armor\chest.png" />
+    <Content Include="Items\Armor\Chestplate.png" />
+    <Content Include="Items\Armor\Chestplate_Arms.png" />
+    <Content Include="Items\Armor\Chestplate_Body.png" />
+    <Content Include="Items\Armor\Chestplate_FemaleBody.png" />
+    <Content Include="NPCs\ChestDude.png" />
+    <Content Include="NPCs\ChestDude_Head.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
