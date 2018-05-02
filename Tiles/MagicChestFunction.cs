@@ -38,8 +38,8 @@ namespace MagicStorage.Tiles
             //  dustType = mod.DustType("DustName");   this adds dust when you break the chest
             disableSmartCursor = true;
             adjTiles = new int[] { TileID.Containers };
-            chest = "Magic Chest";
-            chestDrop = mod.TileType("MagicChest");
+            chest = "MagicChest";
+            chestDrop = mod.TileType("MagicChestFunction");
         }
 
         public string MapChestName(string name, int i, int j)
@@ -89,7 +89,7 @@ namespace MagicStorage.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(i * 16, j * 16, 32, 32, mod.ItemType("Magic Chest"));   //here put your Chest Item name
+            Item.NewItem(i * 16, j * 16, 32, 32, mod.ItemType("MagicChest"));   //here put your Chest Item name
             Chest.DestroyChest(i, j);
         }
 
