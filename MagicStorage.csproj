@@ -39,6 +39,7 @@
     <Compile Include="Items\Chestium.cs" />
     <Compile Include="Items\MagicChest.cs" />
     <Compile Include="Items\UselessChest.cs" />
+    <Compile Include="Items\CacheSchoes.cs" />
     <Compile Include="MagicStorage.cs" />
     <Compile Include="NPCs\ChestDude.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -81,6 +82,8 @@
     <Content Include="Items\Armor\Chestplate_Arms.png" />
     <Content Include="Items\Armor\Chestplate_Body.png" />
     <Content Include="Items\Armor\Chestplate_FemaleBody.png" />
+    <Content Include="Items\CacheSchoes.png" />
+    <Content Include="Items\CacheSchoes_Shoes.png" />
     <Content Include="NPCs\ChestDude.png" />
     <Content Include="NPCs\ChestDude_Head.png" />
   </ItemGroup>
@@ -88,5 +91,4 @@
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
-    <Compile Include="Items\CacheSchoes.cs" />
 </Project>
