@@ -30,7 +30,6 @@ namespace MagicStorage.Items
 			player.rangedDamage += 19f;
 			player.magicDamage += 19f;
 			player.minionDamage += 19f;
-            player.moveSpeed -= 5f;
 			player.endurance = 1f - 0.1f * (1f - player.endurance);
 		}
 
