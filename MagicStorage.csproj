@@ -88,4 +88,5 @@
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
+    <Compile Include="Items\CacheSchoes.cs" />
 </Project>
