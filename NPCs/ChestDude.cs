@@ -115,6 +115,22 @@ namespace MagicStorage.NPCs
         {
             shop.item[nextSlot].SetDefaults(ItemID.Chest);
             nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("CacheShoes"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("MagicChest"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("UselessChest"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("Chestium"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("HammerName"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("Cheggings"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("Chestplate"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("Chelmet"));
+            nextSlot++;
         }
 
 
